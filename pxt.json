@@ -1,6 +1,6 @@
 {
     "name": "servo",
-    "description": "A large micro-servo library",
+    "description": "A large micro-servo library, version 14",
     "dependencies": {
         "core": "*"
     },
