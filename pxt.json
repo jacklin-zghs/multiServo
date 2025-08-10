@@ -1,11 +1,10 @@
 {
-    "name": "servo",
+    "name": "multiServo",
     "description": "A large micro-servo library, version 14",
     "dependencies": {
         "core": "*"
     },
     "files": [
-        "README.md",
         "servo.ts",
         "ns.ts",
         "mytarget.ts"
