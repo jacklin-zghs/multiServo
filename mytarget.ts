@@ -6,9 +6,9 @@ namespace servos {
     //% block="servo P2" fixedInstance whenUsed
     export const P2 = new servos.PinServo(pins.P2);
    //% block="servo P8" fixedInstance whenUsed
-    export const P8 = new servos.PinServo(pins.P8);
+    export const P8 = new servos.PinServo(<PwmOnlyPin>pins.P8);
   //% block="servo P16" fixedInstance whenUsed
-    export const P16 = new servos.PinServo(pins.P16);
+    export const P16 = new servos.PinServo(<PwmOnlyPin>pins.P16);
 
   // below are unsafe conflict with led control
   //% block="servo P3x" fixedInstance whenUsed, unsafe
@@ -24,5 +24,5 @@ namespace servos {
   //% block="servo P10x" fixedInstance whenUsed, unsafe
     export const P10 = new servos.PinServo(pins.P10); 
   //% block="servo P12x" fixedInstance whenUsed, unsafe
-    export const P12 = new servos.PinServo(pins.P12);   
+    export const P12 = new servos.PinServo(<PwmOnlyPin>pins.P12);   
 }
